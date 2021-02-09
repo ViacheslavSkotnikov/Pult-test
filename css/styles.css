@@ -1,0 +1,70 @@
+@import "/css/header.css";
+@import "/css/hero.css";
+@import "/css/footer.css";
+@import "/css/swiper.css";
+
+:root {
+  --primary-color: #ff9900;
+  --secondary-color: #fff;
+  --text-color: #333333;
+  --background-color: #e5e5e5;
+  --border-color: #cacaca;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Futura PT", sans-serif;
+  background-color: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1760px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  font-family: "Futura PT";
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-ExtraBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+/* 1920 */
+.hero {
+  margin-bottom: 40px;
+}
+
+
+/* 320 */
+
+@media (max-width: 320px) {
+  .hero {
+    margin-bottom: 20px;
+  }
+}
